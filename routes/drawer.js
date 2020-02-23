@@ -12,4 +12,4 @@ const RootDrawerNavigator = createDrawerNavigator({
   }
 });
 
-export default createDrawerNavigator(RootDrawerNavigator);
+export default createAppContainer(RootDrawerNavigator);
